@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Head of the file -->
+<head>
+    <title>CleanNow - We like it clean</title>
+    <!-- Title of the page for the title bar -->
+    <meta name="introduction to CleanNow" content="a simple HTML page" description="df">
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <!-- Body of the file -->
+    <div>
+        <!-- defining a div that remains constant across all the pages of the website -->
+        <span class="welcome1" style="color:gray">Welcome To our Cleaning Company</span>
+        <span class="welcome2" style="float: right; color:gray;">Phone:+13424229029 &nbsp &nbsp Email:<span
+                class="green" style="color:skyblue">info@company.com</span></span>
+    </div><br>
+
+    <!--Navigation bar within the Header tag-->
+    <header>
+        <div class="navigation bar">
+            <!--Using unordered list for my navigation bar for smooth transitioning between the pages-->
+            <ul class="navigation items" style="float:right; padding: 18px 18px; margin:18px 18px">
+
+                <!-- Using style tag to use some css stylings -->
+                <li id="view home" title="view home" style="display: inline; ">
+                    <a href="./../html/index.html" style="padding: 18px 18px;  color:gray">Home</a></li>
+                <!-- Using anchor tag to link the pages  -->
+                <li id="view about" title="view about" style="display: inline;">
+                    <a href="./../html/aboutus.html" style="padding:18px 18px; color:gray">About Us</a></li>
+
+                <li id="view services" title="view services" style="display: inline;">
+                    <a href="./../html/services.html" style="padding: 18px 18px; color:gray ">Services</a></li>
+
+                <li id="view works" title="view works" style="display: inline;">
+                    <a href="./../html/works.html" style="padding: 18px 18px;  color:gray">Our Works</a></li>
+
+                <li id="view pages" title="view pages" style="display: inline;">
+                    <a href="./../html/pages.html" style="padding: 18px 18px;  color:gray">Pages</a></li>
+
+                <li id="view blog" title="view blog" style="display: inline;">
+                    <a href="./../html/blog.html" style="padding:18px 18px; color:gray ">Blog</a></li>
+
+                <li id="view contact" title="view contact" style="display: inline;">
+                    <a href="./../html/contact.html" style="padding:18px 18px;  color:gray">Contact Us</a></li>
+
+                <li id="view quote form" title="view quote form" style="display: inline;">
+                    <a href="./../html/quoteform.html" style="padding:18px 18px; color:gray">Request A Quote </a></li>
+            </ul>
+        </div>
+    </header>
+    <!--Navigation bar within the Header tag completed-->
+
+    <!--Image area using the background image of the css styling-->
+    <br><br>
+    <!-- using br tag to create a new line -->
+    <div class="image" style="background-image: 
+        url('./../images/pngtree-simple-cartoon-cleaning-service-psd-material-image_188894.jpg');">
+        <div class="text">
+            <!-- using class tag appropraitely at various places which might be helpful instyling later -->
+            <h1>Hi quality cleaning<br>services. better and faster<br>cleaning solution!</h1>
+            <h3>The phrasal sequence of the Lorem lpsum text is now so widespread and<br>commonplace that many DTP
+                programmes can generate dummy text<br>using the starting sequence</h3>
+            <a href="#contactus"><span class="box2">Get in touch with us</span></a>
+            <!--Using the "id" references within the page to naviagte better-->
+        </div>
+    </div>
+    <!--Image area completed-->
+
+    <!-- Embedding an youtube welcome video using iframe-->
+    <!-- This is not a part of assignment but just an addition to the page -->
+    <div class="youtubevideo">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/plhCSdwYswA" frameborder="0"
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
+
+    <!-- Using the circle SVG tag-->
+    <div class="circleSVG">
+        <svg class="circle">
+            <circle cx="200" cy="100" r="45" fill="pink"> </circle>
+        </svg>
+    </div>
+
+    <!-- Div for Why choose section starts -->
+    <div class="whychooseus" id="C">
+        <h1>Why Choose Us</h1>
+        <!-- using h1 tag for the highest heading -->
+        <div class="choose1">
+            <br><br><br>
+            <picture>
+                <!-- using picture tag to embed a picture -->
+                <img src="./../images/27.gif" width="500" height="250">
+                <!-- Using source and srcset tags to make a responsive design -->
+                <source srcset="./../images/23.png" media="(min-width:800px)">
+            </picture>
+            <h2>Pick a Time</h2>
+            <!-- using different tags like section for creating a new section,
+                 u for underline, strong and b for bold -->
+            <section>Lorem <u>ipsum dolor sit</u> amet, <strong> adipiscing elit</strong>, sed do <b>eiusmod tempor
+                </b>incididunt ut labore et
+                dolore magna aliqua</section>
+        </div>
+
+        <div class="choose2">
+            <!-- making separate div per each section to getmodularity in the code -->
+            <br><br><br>
+            <picture>
+                <img src="./../images/26.jpg" width="500" height="250">
+                <source srcset="./../images/23.png" media="(min-width:100px)">
+            </picture>
+            <h2>Book Instantly</h2>
+            <!-- using different tags like p for paragraph, sup for superscript and sub for subscript -->
+            <p>Lorem ipsum dolor sit amet, <sup>consectetur adipiscing elit</sup>, sed do eiusmod <sub>tempor incididunt
+                </sub>ut labore et
+                <!-- em tag used to emphasize the select text -->
+                dolore <em>magna aliqua</em></p>
+            <dl>
+                <!-- using grouping elements like dl, dd and dt for descriptive lists -->
+                <dt>This is a cleaning company</dt>
+                <dd>Not just another cleaning company but CleanNow</dd>
+            </dl>
+
+        </div>
+
+        <div class="choose3">
+            <br><br><br>
+            <picture>
+                <img src="./../images/25.jpg" width="500" height="250">
+                <source srcset="./../images/23.png" media="(min-width:800px)">
+            </picture>
+            <h2>Your pro arrives</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua</p>
+        </div>
+    </div>
+
+    <!--cleaning Services division-->
+    <div class="cleaning">
+        <div class="cleaning-services"><br>
+            <h1>Cleaning Services</h1>
+            <div class="clean1">
+                <h2>Residential Cleaning</h2>
+                <div></div><br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua</p>
+
+            </div>
+            <!-- Separating cleaning services in unique div tags for modular design -->
+
+            <div class="clean2">
+                <h2>Commercial Cleaning</h2>
+                <div></div><br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua</p>
+
+            </div>
+
+            <div class="clean3">
+                <h2>Office Cleaning</h2>
+                <div></div><br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua</p>
+            </div>
+            <!-- Each div tag has an h2 heading and a brief paragraph description using a p tag -->
+            <div class="clean4">
+                <h2>Seasonal Cleaning</h2>
+                <div></div><br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua</p>
+            </div><br>
+        </div>
+    </div>
+
+    <!-- About us division | using  a separate div for the about us page -->
+    <div class="aboutus">
+        <span class="I-font"><i>Best Cleaning Company</i></span>
+        <h2>
+            About Company
+        </h2>
+        <p>
+            We're ready to clean up your home, office house or a warehouse with an astounding and acute precision
+        </p>
+
+        <div class="Qmark1">
+            <!-- using a picture tag to embed a picture in the page  -->
+            <picture>
+                <img src="./../images/qmark.jfif" width="100" height="100">
+            </picture>
+        </div>
+        <!-- using a span tag to group enclosed text -->
+        <span><span>We Know the Area</span><br>We insure you from not doing our job as gud as we
+            promise</span><br><br><br>
+
+        <div class="Qmark1">
+            <picture>
+                <img src="./../images/qmark.jfif" width="100" height="100">
+            </picture>
+        </div>
+        <span><span>Quality cleans everytime</span><br>Our long history and regular clients prove that
+            our service is qualified.</span><br><br><br>
+
+        <div class="Qmark1">
+            <picture>
+                <img src="./../images/qmark.jfif" width="100" height="100">
+            </picture>
+        </div>
+        <span><span>Highly-Trained Technicians</span><br>We insure you from not doing our job as gud
+            as we promise</span><br><br><br>
+
+        <div class="Qmark1">
+            <picture>
+                <img src="./../images/qmark.jfif" width="100" height="100">
+            </picture>
+        </div>
+
+        <div class="button">
+            <!-- Using an anchor tag and href link to link the reference entities -->
+            <a href=#><span class="box3">More Info</span></a>
+        </div>
+        <div class="More">
+            <div class="text1">Want to get 20% off? Save the time and money?</div>
+            <a href=#><span class="box2">More Services</span></a>
+        </div>
+    </div>
+
+    <!-- Div for Meet out Team -->
+    <div class="MeetOurTeam">
+        <!--Used to make grids-->
+        <div>
+            <h2>Meet Our Team</h2><br><br>
+        </div>
+
+        <div>
+            <div class="profile-pic1">
+                <picture>
+                    <img src="./../images/29.jfif" width="100" height="100">
+                </picture>
+            </div>
+            James Cawdale<br><span class="OC"><i>Office cleaner</i></span><br><br>
+        </div>
+
+        <div class="bop3">
+            <div class="profile-pic2">
+                <picture>
+                    <img src="./../images/28.jpg" width="100" height="100">
+                </picture>
+            </div>
+            Joseph Doe<br><span class="OC"><i>Office cleaner</i></span><br><br>
+        </div>
+        <!-- Using picture for each tema member and their title in italics -->
+        <div class="bop4">
+            <div class="profile-pic3">
+                <picture>
+                    <img src="./../images/27.jpg" width="100" height="100">
+                </picture>
+            </div>
+            Daina Mason<br><span class="OC"><i>Office cleaner</i></span>
+        </div>
+    </div>
+
+    <!--pricing tables-->
+    <div class="works">
+        <br><br><br>
+        <h2 class="PRT">
+            <center>Pricing Tables</center>
+        </h2><br><br>
+        <div>
+            <div class="bl">
+                <h2> Office Cleaning</h2>
+                <picture>
+                    <img src="./../images/31.png" width="150" height="150">
+                    <source srcset="./../images/23.png" media="(min-width:100px)">
+                </picture>
+                <hr>
+                <p> $120<br>Per Month</p>
+                <div>
+                    <p>Cleaning floors</p>
+                    <p>Clean Windows </p>
+                    <p>Clean the Walls </p>
+                    <p>Organization of furniture </p>
+                    <p>Home Services </p>
+                </div>
+                <button type="button" id="buy">
+                    <h3>Buy Now</h3>
+                </button>
+            </div>
+            <!-- This can be further styled using the css to have a grid design -->
+            <div class="bl">
+                <h2>Home Cleaning</h2>
+                <picture>
+                    <img src="./../images/31.png" width="150" height="150">
+                    <source srcset="./../images/23.png" media="(min-width:100px)">
+                </picture>
+                <hr>
+                <p> $120<br>Per Month</p>
+                <div>
+                    <p>Cleaning floors</p>
+                    <p>Clean Windows </p>
+                    <p>Clean the Walls </p>
+                    <p>Organization of furniture </p>
+                    <p>Home Services </p>
+                </div>
+                <button type="button" id="buy">
+                    <h3>Buy Now</h3>
+                </button>
+            </div>
+            <div class="bl">
+                <h2>Carpet Cleaning</h2>
+                <picture>
+                    <img src="./../images/31.png" width="150" height="150">
+                    <source srcset="./../images/23.png" media="(min-width:100px)">
+                </picture>
+                <hr>
+                <p> $120<br>Per Month</p>
+                <div>
+                    <p>Cleaning floors</p>
+                    <p>Clean Windows </p>
+                    <p>Clean the Walls </p>
+                    <p>Organization of furniture </p>
+                    <p>Home Services </p>
+                </div>
+                <button type="button" id="buy">
+                    <h3>Buy Now</h3>
+                </button>
+            </div>
+            <div class="bl">
+                <h2>Apartment Cleaning</h2>
+                <picture>
+                    <img src="./../images/31.png" width="150" height="150">
+                    <source srcset="./../images/23.png" media="(min-width:100px)">
+                </picture>
+                <hr>
+                <p> $120<br>Per Month</p>
+                <div>
+                    <p>Cleaning floors</p>
+                    <p>Clean Windows </p>
+                    <p>Clean the Walls </p>
+                    <p>Organization of furniture </p>
+                    <p>Home Services </p>
+                </div>
+                <button type="button" id="buy">
+                    <h3>Buy Now</h3>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!--Latest blog division starts here-->
+    <div class="blog">
+
+        <div class="cleaning-services"><br>
+            <h1>Latest Blog</h1>
+            <div class="clean1">
+                <h2>Residential Cleaning</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua</p>
+
+            </div>
+            <div class="clean2">
+                <h2>Commercial Cleaning</h2>
+                <div></div><br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua</p>
+            </div>
+            <!-- Creating separate tags to create a modular design  -->
+            <div class="clean3">
+                <h2>Office Cleaning</h2>
+                <div></div><br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua</p>
+            </div>
+            <hr>
+        </div>
+    </div>
+
+    <!-- Testimonial division -->
+    <div class="Testimonials">
+        <h3>
+            <!-- Using a cnter tag to bring the text in center -->
+            <center>Testimonials</center>
+        </h3>
+        <div>
+            <p>Lorem ipsum sit amet, consectetue adipiscing elit, sed do eiusmod tempor incididun ut labore
+                <br> et dolore magna aliqua</p><br>
+            <div class="profile-pic1">
+                <picture>
+                    <img src="./../images/30.jpg" width="450" height="300">
+                </picture>
+            </div>
+            <!-- Using itablics to crete a formatting effect -->
+            <h3>John Doe<br><i>CEO-Founder, CleanNow</i></h3>
+        </div>
+    </div>
+
+    <!-- Projects division -->
+    <div class="project">
+        <h1>Our Projects</h2>
+            <div class="OUR-1">
+                <div>
+                    <picture>
+                        <img src="./../images/32.jfif" width="450" height="300">
+                    </picture>
+                </div>
+            </div>
+            <div class="OUR-2">
+                <div>
+                    <!-- Using separate divisions for each project and pictures -->
+                    <picture>
+                        <img src="./../images/32.jfif" width="450" height="300">
+                    </picture>
+                </div>
+            </div>
+            <div class="OUR-3">
+                <div>
+                    <picture>
+                        <img src="./../images/32.jfif" width="450" height="300">
+                    </picture>
+                </div>
+            </div>
+            <div class="OUR-4">
+                <div>
+                    <picture>
+                        <img src="./../images/32.jfif" width="450" height="300">
+                    </picture>
+                </div>
+            </div>
+    </div>
+
+    <!-- Form division -->
+    <div class="image2">
+        <div class="get-quote" id="form">
+            <h1 class=""> <b>Get A Instant Quote</b></h1>
+
+            <!-- Using form tag to create a form -->
+            <form method="GET" id="Quote" action="form-submit.html">
+                <!-- Using get method here to cater the get request -->
+                <!-- also using the action tag to go to a page after submitting -->
+                <fieldset>
+                    <label>Full name: </label>
+                    <input type="text" placeholder="Enter our Name " class="form" required><br><br>
+                    <!-- using the required tag for the required fields -->
+                    <label>Email box: </label>
+                    <input type="email" placeholder="Enter Your Email" class="form" required><br><br>
+                    <label>Contact No.: </label>
+                    <input type="tel" placeholder="Phone" class="form" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
+                    <!-- using the predefinned pattern for the phone number to validate the response -->
+                </fieldset>
+
+                <fieldset>
+                    <!-- Using fieldset tag to create a separate field for each group of blocks  -->
+                    <label>Are you an existing customer</label><br>
+                    <label>Yes</label>
+                    <input type="radio" name="existingcustomer" value="yes">
+                    <!-- Using radio button to validate a singular response  -->
+                    <label>No</label>
+                    <input type="radio" name="existingcustomer" value="no">
+                    <br><br>
+
+                    <!-- Using the labell tag to name the labels -->
+                    <label>Type of Work Order</label><br>
+                    <label>Commercial</label>
+                    <input type="checkbox" name="workorder" value="commercial">
+                    <!-- Using checkbox to allow multiple selections -->
+                    <label>Domestic</label>
+                    <input type="checkbox" name="workorder" value="domestic">
+                </fieldset>
+
+                <fieldset>
+                    <label for="type">Choose a type of Service: </label>
+                    <select name="type" id="type">
+                        <option value="premium">Premium</option>
+                        <!-- using select and option methods to choose anyone from the Dropdown list -->
+                        <option value="economy">Economy</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <label>Any special requests:</label>
+                    <textarea placeholder="Message" rows="4" class="form"></textarea>
+                    <!-- using textarea for the user comments -->
+                </fieldset>
+
+                <input type="submit" value="Submit Quote" class="message-b"><br>
+                <!-- using the input type as submit for the submit button for the form -->
+            </form>
+        </div>
+    </div>
+    
+    <!-- Footer  -->
+    <footer>
+        <!-- Using the footer tag to create a common footer across all the pages of rhe website -->
+        <div class="footernotes"><br>
+            <div class="pc">
+                <div class="endnote">
+                    <h2> <b>CleanNow</b></h2>
+                    <!-- Using article tag to differentiate the text as an article -->
+                    <article class="foot">At CleanNow, we like it clean. Cleaner than everybody else.
+                        Infact cleaner than anybody has ever cleaned in the history of cleaning.<br><br>
+                        <b>Copyright 2018 </b> <strong>CleanNow</strong>,
+                        <!-- using different tags for formatting like b, strong, br, etc -->
+                        All Rights Reserved </article><br>
+                </div>
+
+                <div class="quickview">
+                    <h3><b>Quick View</b></h3>
+                    <!-- using anchor tag and the href tag to link the footer links to the correct pages -->
+                    <a class="foot" href="./../html/index.html">Home</a><br>
+                    <a class="foot" href="./../html/aboutus.html">About</a><br>
+                    <a class="foot1" href="./../html/services.html""> Services</a><br>
+                    <a class =" foot1" href="./../html/works.html"> Project</a> <br>
+                    <a class="foot1" href="./../html/quoteform.html"> Quote </a>
+                </div>
+
+                <div class="services">
+                    <h3><b>Service</b></h3>
+                    <p class="foot">Commercial Cleaning<br>
+                        House Cleaning<br>
+                        Office Cleaning <br>
+                        Glass Cleaning <br>
+                        Window Cleaning</p>
+                </div>
+
+                <!-- using the id tag to link the reference id on the same page -->
+                <div class="contactus" id="contactus">
+                    <h3><b>Contact Us</b></h3>
+                    <address>
+                        <!-- using the address tag for the the company address -->
+                        <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
+                        Visit us at:<br>
+                        CleanNow.com<br>
+                        Box 564, TommorowLand<br>
+                        USA
+                    </address>
+
+                    <p class="foot">Phone: 8576177352<br>
+                        Email: info@company.com<br>
+                        Fax: 857617357865</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<!-- closing all the tags appropriately -->
+</html>
