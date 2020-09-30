@@ -1,4 +1,4 @@
-#This is a READEME.md file for Assigment 3
+# This is a READEME.md file for Assigment 3
 
 This is a README.md file for the Assignment 3 of the course *INFO-6150 Web Design and User Experience*
 ________________________________
@@ -13,3 +13,4 @@ ________________________________
 ____________________________
 >This assigment is focussed on learning the basics of CSS Selectors, properties, combinators, pseudo-classes, pseudo-elements, and box model.  
 
+Connect with me on LinkedIn : [Deepak Lokwani](https://www.https://www.linkedin.com/in/deepaklokwani1/)
