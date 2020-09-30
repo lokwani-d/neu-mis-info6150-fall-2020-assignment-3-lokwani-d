@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import "./general.css";
+@import "./selector.css";
+@import "./../css/topBanner.css";
+@import "./../css/homePage.css";
+@import "./../css/header.css";
+@import "./../css/whyUs.css";
+@import "./../css/services.css";
+@import "./../css/about.css";
+@import "./team.css";
+@import "./pricingTable.css";
+@import "./blog.css";
+@import "./projects.css";
+@import "./layout.css";
+@import "./form.css";
