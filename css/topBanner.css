@@ -1,5 +1,5 @@
-.topBanner
- {
+  /* This CSS rule contains the hover effect for the Banner  section of the Page */
+  .topBanner {
   padding: 0 12vw 0 12vw;
   position: relative;
   top: 0;
@@ -7,15 +7,13 @@
   border-bottom: 1px solid #7e7e7e;
 }
 
-.topBanner
- p {
+.topBanner p {
   padding-top: 12px;
   display: inline;
   color: #7e7e7e;
 }
 
-.topBanner
- .welcomeNote {
+.topBanner .welcomeNote {
   font-size: 1.1em;
   float: left;
   color: #7e7e7e;
@@ -27,14 +25,12 @@
 
 }
 
-.topBanner
- .bannerContact {
+.topBanner .bannerContact {
   font-size: 1.1em;
   float: right;
 }
 
-.topBanner
- .bannerContact a {
+.topBanner .bannerContact a {
   text-decoration: none;
   color: #37afa8;
 }

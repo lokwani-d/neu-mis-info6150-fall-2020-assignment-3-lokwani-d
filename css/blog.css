@@ -1,0 +1,63 @@
+/* This CSS file contains the CSS rules for the Blog section of the Page */
+
+.blog {
+    padding: 0 12vw 0 12vw;
+    height: 60vh;
+    overflow: hidden;
+}
+
+.profilePic {
+    position: relative;
+    top: 2%;
+    height: 6vh;
+    width: 6vh;
+    border-radius: 3vh;
+    background-color: rgba(55, 175, 168, 0.2);
+}
+
+.author {
+    position: relative;
+    bottom: 8%;
+    left: 20%;
+}
+
+.testimonial {
+    padding: 0 12vw 0 12vw;
+    text-align: center;
+    padding-top: 2vh;
+    height: 75vh;
+}
+
+.testimonial p {
+    font-style: italic;
+    color: #7e7e7e;
+}
+
+.testimonial .designation {
+    background-color: #37afa8;
+    padding-top: 20px;
+    height: 5vh;
+    width: 30vw;
+    margin-left: 23vw;
+    color: white;
+    font-size: 1.2em;
+}
+
+
+
+
+.testimonialImg {
+    position: relative;
+    background-image: url("https://source.unsplash.com/vMV6r4VRhJ8");
+    background-size: cover;
+    height: 20vw;
+    width: 20vw;
+    left: 37%;
+    background-color: lightgray;
+    border-radius: 10vw;
+    margin-bottom: 10vh;
+}
+
+.blogImg {
+    background-image: url("https://source.unsplash.com/MwW-zrkYSIU");
+}

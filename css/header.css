@@ -1,0 +1,71 @@
+.navigatinBar
+ {
+  padding: 0 12vw 0 12vw;
+  z-index: 10;
+  background-color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  height: 100px;
+  border-bottom: 1px solid #7e7e7e;
+}
+
+.navigatinBar
+ ul {
+  padding-top: 20px;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.navigatinBar
+ ul li {
+  padding-top: 5px;
+  float: left;
+}
+
+.navigatinBar
+ ul li a {
+  text-decoration: none;
+  font-size: 1.1em;
+  padding-right: 30px;
+  color: #7e7e7e;
+}
+
+.navigatinBar
+ ul li a:hover {
+  color: #37afa8;
+}
+
+.navigatinBar
+ ul li .active {
+  color: #37afa8;
+}
+
+.navigatinBar
+ ul li .orgName {
+  color: #37afa8;
+  font-size: 1.8em;
+  font-weight: 700;
+  float: left;
+  padding-right: 23vw;
+}
+
+.navigatinBar
+ ul .quoteButton
+ {
+  color: white;
+  float: right;
+  height: 40px;
+  width: 150px;
+  background-color: #37afa8;
+  position: relative;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.navigatinBar
+ ul .quoteButton
+ p {
+  margin-top: 10px;
+  position: relative;
+}

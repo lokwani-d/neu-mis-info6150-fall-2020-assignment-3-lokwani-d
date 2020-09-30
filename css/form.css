@@ -1,0 +1,61 @@
+  /* This CSS file contains the CSS rules for the Quote section of the Page */
+
+  .bottomform {
+      padding: 0 12vw 0 12vw;
+      height: 100vh;
+      background-image: url("https://source.unsplash.com/pj-BrFZ9eAA");
+      background-size: cover;
+  }
+
+  .userForm {
+      margin: 15% 0 15% 0;
+      padding-left: 15%;
+      padding-right: 15%;
+      background-color: white;
+  }
+
+  .userForm h2 {
+      font-size: 2em;
+      text-align: center;
+      margin-top: 4vh;
+      margin-bottom: 4vh;
+      color: #37afa8;
+  }
+
+  .userForm input,
+  .userForm textarea {
+      background-color: lightgray;
+      font-style: italic;
+      margin: auto;
+      display: block;
+      height: 7vh;
+      width: 100%;
+      margin-bottom: 4vh;
+      border: none;
+      padding: 0px 10px 0px 10px;
+  }
+
+  /* This CSS rule contains the effect for the button section of the Page */
+
+  .userForm textarea {
+      height: 13vh;
+      font-size: 1.3em;
+      padding-top: 10px;
+      resize: none;
+  }
+
+  .userForm .msgBtn {
+      text-align: center;
+      color: white;
+      padding: 0px 10px 0px 10px;
+      height: 8vh;
+      background-color: #37afa8;
+      width: 105%;
+      font-size: 1.4em;
+      font-style: normal;
+  }
+
+  .userForm .msgBtn p {
+      position: relative;
+      top: 30%;
+  }

@@ -1,0 +1,57 @@
+  /* This CSS file contains the CSS rules for the Pricing Tables section of the Page */
+
+  .prices {
+      padding: 0 12vw 0 12vw;
+      text-align: center;
+      height: 55.5vh;
+      color: #7e7e7e;
+  }
+
+  .prices i {
+      margin-top: 4vh;
+      margin-bottom: 2vh;
+      font-size: 4em;
+      color: #37afa8;
+  }
+
+  .prices h2 {
+      color: #37afa8;
+  }
+
+  .prices h1 {
+      padding-bottom: 0;
+      margin-bottom: 0;
+  }
+
+  .prices hr {
+      width: 24%;
+      color: lightgray;
+      margin-bottom: 0;
+  }
+
+  /* This CSS rule contains the hover effect for the Pricing section of the Page */
+
+  .prices .col1:hover,
+  .prices .col2:hover,
+  .prices .col3:hover,
+  .prices .col4:hover {
+      -webkit-box-shadow: 2px 2px 20px #37afa8;
+      box-shadow: 2px 2px 20px #37afa8;
+  }
+
+  .prices .buyNowBtn {
+      position: relative;
+      bottom: 0;
+      left: -0.5vw;
+      height: 6.5vh;
+      height: 7vh;
+      width: 106%;
+      background-color: #37afa8;
+      color: white;
+  }
+
+  .prices .buyNowBtn p {
+      font-size: 1.3em;
+      position: relative;
+      top: 30%;
+  }

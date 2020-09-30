@@ -1,0 +1,24 @@
+  /* This CSS file contains the CSS rules for the Team section of the Page */
+
+  .ourTeam {
+      padding: 0 12vw 0 12vw;
+      text-align: center;
+      height: 70vh;
+      overflow: hidden;
+  }
+
+  .ourTeam h2 {
+      font-weight: lighter;
+      color: #37afa8;
+  }
+
+  .ourTeam p {
+      color: #7e7e7e;
+  }
+
+
+  .teamphoto {
+      background-image: url("https://cdn.britannica.com/24/212324-050-076731DA/Persian-cat-sleeping.jpg");
+      background-size: cover;
+      background-position-x: -50px;
+  }

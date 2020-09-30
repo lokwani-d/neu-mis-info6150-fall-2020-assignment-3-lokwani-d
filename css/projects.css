@@ -1,0 +1,42 @@
+/* This CSS file contains the CSS rules for the Project section of the Page */
+
+
+.trailer {
+    padding: 0 12vw 0 12vw;
+    height: 30vh;
+    color: #7e7e7e;
+}
+
+.trailer .orgName {
+    color: #37afa8;
+    font-size: 1.8em;
+    font-weight: 700;
+}
+
+.trailer a {
+    text-decoration: none;
+    color: #7e7e7e;
+}
+
+.trailer .gridOf4 {
+    -ms-grid-columns: 40% 15% 15% 20%;
+    grid-template-columns: 40% 15% 15% 20%;
+}
+
+.trailer span {
+    font-weight: 700;
+}
+
+.blogImg {
+    background-image: url("https://source.unsplash.com/MwW-zrkYSIU");
+}
+
+/* This CSS rule contains the hover effect for the Projects section of the Page */
+
+.blog .col1:hover,
+.col2:hover,
+.col3:hover,
+.col4:hover {
+    -webkit-box-shadow: 2px 2px 20px #37afa8;
+    box-shadow: 2px 2px 20px #37afa8;
+}

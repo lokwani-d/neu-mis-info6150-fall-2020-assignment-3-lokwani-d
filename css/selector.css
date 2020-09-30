@@ -1,0 +1,11 @@
+  /* This CSS file contains the CSS rules for the Section Header of the Page */
+
+  .sectionHeader {
+      padding: 0 12vw 0 12vw;
+      text-align: center;
+      margin: 8vh auto 7vh auto;
+      padding: 0;
+      font-size: 3em;
+      width: 20vw;
+      color: #37afa8;
+  }

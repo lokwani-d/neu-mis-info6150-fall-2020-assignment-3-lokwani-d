@@ -1,0 +1,45 @@
+  /* This CSS file contains the CSS rules for the Homepage section of the Page */
+
+.homePage {
+    padding: 0 12vw 0 12vw;
+    background-image: url("https://source.unsplash.com/__ZMnefoI3k");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+    height: 82vh;
+  }
+  
+  .homePageText {
+    margin-top: 10vh;
+    position: absolute;
+    width: 40vw;
+    color: white;
+  }
+  
+  #tagLine {
+    font-size: 3vw;
+  }
+  
+  #subText {
+    font-size: 1.3vw;
+  }
+
+  /* This CSS file contains the CSS rules for the buttons within the Homepage section of the Page */
+  
+.homePageBtn {
+    text-align: center;
+    color: #37afa8;
+    background-color: white;
+    height: 7vh;
+    width: 20vw;
+    border-radius: 3.5vh;
+  }
+  
+  .homePageBtn p {
+    font-size: 1.5em;
+    padding-top: 1.7vh;
+  }
+  
+  
+  
+  

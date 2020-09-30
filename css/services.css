@@ -1,0 +1,29 @@
+  /* This CSS file contains the CSS rules for the Services section of the Page */
+
+  .services {
+      padding: 0 12vw 0 12vw;
+      height: 50vh;
+      overflow: hidden;
+  }
+
+  .servicesTitle {
+      color: #37afa8;
+      font-size: 1.5em;
+      margin: 0 0 10px 10px;
+  }
+
+  .serviceImage+p,
+  .blogImg+p {
+      font-size: 1.2em;
+      color: #7e7e7e;
+  }
+
+  .serviceImage,
+  .blogImg {
+      background-color: rgba(55, 175, 168, 0.2);
+      background-image: url("https://source.unsplash.com/2zUjvV0M9dQ");
+      background-size: cover;
+      height: 50%;
+      width: 100%;
+      margin: 0 auto;
+  }

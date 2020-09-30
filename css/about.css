@@ -1,0 +1,111 @@
+  /* This CSS file contains the CSS rules for the About Us section of the Page */
+
+  .about {
+    padding: 0 12vw 0 12vw;
+    height: 90vh;
+    overflow: hidden;
+  }
+
+  .about h1 {
+    color: #37afa8;
+  }
+
+  .about p {
+    color: #7e7e7e;
+  }
+
+  .icon {
+    display: inline;
+    font-size: 5em;
+    margin: 12px auto;
+  }
+
+  .point {
+    display: inline;
+    font-size: 2.5em;
+    margin-left: 20%;
+  }
+
+  .description {
+    font-size: 1.3em;
+  }
+
+  .offer {
+    padding: 0 12vw 0 12vw;
+    background-color: #37afa8;
+    height: 25vh;
+  }
+
+  .offer .offerText {
+    position: relative;
+    top: 40%;
+    display: inline;
+    color: white;
+  }
+
+  .offer .offerText h2 {
+    font-size: 2em;
+    display: inline;
+  }
+
+  /* Contains the rule for the buttons within the about us secion */
+
+  .moreServBtn {
+    font-size: 1.2em;
+    text-align: center;
+    margin: 3vh auto 0;
+    height: 6vh;
+    width: 20vh;
+    background-color: #37afa8;
+    border-radius: 2.5vh;
+  }
+
+  .moreServBtn p {
+    color: white;
+    padding-top: 1.5vh;
+  }
+
+  .about .moreInfoBtn {
+    position: relative;
+    right: -30%;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 3vh auto 0 0;
+    height: 6vh;
+    width: 20vh;
+    background-color: #37afa8;
+    border-radius: 1.5vh;
+  }
+
+  .about .moreInfoBtn p {
+    position: relative;
+    top: 30%;
+    color: white;
+  }
+
+  .offer .ctaWhite {
+    text-align: center;
+    float: Right;
+    position: relative;
+    top: 9vh;
+    width: 10vw;
+    font-size: 1em;
+    background-color: white;
+    margin-left: 50vh;
+    border-radius: 10vh;
+  }
+
+  .offer .ctaWhite p {
+    font-size: 1.2em;
+    color: #37afa8;
+  }
+
+
+
+  .about .gridOf2 .col1 {
+    background-image: url("https://content.thriveglobal.com/wp-content/uploads/2019/06/bg_8b.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin-bottom: 20%;
+  }

@@ -1,0 +1,39 @@
+  /* This CSS rule contains the hover effect for the Why US section of the Page */
+  .whyUs {
+    padding: 0 12vw 0 12vw;
+    text-align: center;
+    height: 60vh;
+    overflow: hidden;
+  }
+  
+  .whyUs h4 {
+    padding-top: 2vh;
+    font-weight: lighter;
+    color: #37afa8;
+    padding-bottom: 2vh;
+  }
+  
+  .whyUs p {
+    color: #7e7e7e;
+  }
+  
+  .circle {
+    text-align: center;
+    margin: 10vh auto 0;
+    color: white;
+    height: 25vh;
+    width: 25vh;
+    background-color: #37afa8;
+    border-radius: 12.5vh;
+  }
+  
+  .circle h2 {
+    font-size: 4em;
+    position: relative;
+    top: 36%;
+  }
+  
+  .circle + h4 {
+    margin: 10px auto;
+    font-size: 2em;
+  }
