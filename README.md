@@ -13,4 +13,4 @@ ________________________________
 ____________________________
 >This assigment is focussed on learning the basics of CSS Selectors, properties, combinators, pseudo-classes, pseudo-elements, and box model.  
 
-Connect with me on LinkedIn : [Deepak Lokwani](https://www.https://www.linkedin.com/in/deepaklokwani1/)
+Connect with me on LinkedIn : [Deepak Lokwani](https://www.linkedin.com/in/deepaklokwani1/)
