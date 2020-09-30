@@ -39,6 +39,7 @@
       box-shadow: 2px 2px 20px #37afa8;
   }
 
+  /* This CSS rule contains the  effect for the buttons of the Pricing section of the Page */
   .prices .buyNowBtn {
       position: relative;
       bottom: 0;

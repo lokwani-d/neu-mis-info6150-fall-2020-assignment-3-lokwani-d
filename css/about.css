@@ -65,6 +65,7 @@
     padding-top: 1.5vh;
   }
 
+  /* Contains the rule for the buttons within the about us secion */
   .about .moreInfoBtn {
     position: relative;
     right: -30%;
@@ -99,8 +100,6 @@
     font-size: 1.2em;
     color: #37afa8;
   }
-
-
 
   .about .gridOf2 .col1 {
     background-image: url("https://content.thriveglobal.com/wp-content/uploads/2019/06/bg_8b.jpg");
